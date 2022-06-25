@@ -24,4 +24,6 @@ To use sample code
 
 
 Gen3 node should have SAM-BA bootloader, double press of reset should enter bootloader mode.
+
+Sensor connector is "Grove" compatible so should work with Grove sensors https://wiki.seeedstudio.com/Grove_System/
  
