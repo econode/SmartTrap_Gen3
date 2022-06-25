@@ -1,6 +1,8 @@
 # SmartTrap Gen3
 Econode SmartTrap Gen3 LoRa node
 
+![Gen3 Photo](https://raw.githubusercontent.com/Econode/SmartTrapGen3/master/.github/images/SmartTrap_Gen3_photo1.jpg)
+
 
 Processor Atmel SAMD21G https://www.microchip.com/en-us/product/ATsamd21g18
 CPU Clock 48Mhz
