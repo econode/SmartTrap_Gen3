@@ -113,10 +113,10 @@ void loop(){
   Serial.println("Hello from USB Serial");
   Serial.print("Battery volts");
   Serial.println( enReadBatteryMilliVolts() );
-  
-  if( ledIndex++ > 2 ) ledIndex=0;
+
+  if( ++ledIndex > 2 ) ledIndex=0;
   digitalWrite(PIN_LED_GREEN, ledIndex==0 );
   digitalWrite(PIN_LED_YELLOW, ledIndex==1 );
-  digitalWrite(PIN_LED_RED, HIGH );
+  digitalWrite(PIN_LED_RED, ledIndex==2 );
   delay(1000);
 }
