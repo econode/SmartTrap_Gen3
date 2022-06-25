@@ -27,3 +27,4 @@ Gen3 node should have SAM-BA bootloader, double press of reset should enter boot
 
 Sensor connector is "Grove" compatible so should work with Grove sensors https://wiki.seeedstudio.com/Grove_System/
  
+Programing and debugging with J-Link / SWD. Use 4 "prog pins", SWD/SWC/3V3/GND
